@@ -3,13 +3,15 @@ import './App.css'
 import Checkbox from './Checkbox'
 import RotatingSquare from './RotatingSquare'
 import DraggableSquare from './DraggableSquare'
+import ImageSizer from './ImageSizer';
 
 function App() {
   return (
     <>
       {/* <Checkbox /> */}
       {/* <RotatingSquare /> */}
-      <DraggableSquare />
+      {/* <DraggableSquare /> */}
+      <ImageSizer />
     </>
   )
 }
